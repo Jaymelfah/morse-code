@@ -42,5 +42,23 @@ def decode_word(word)
   translated_word
 end
 
+# decode sentence
+
+ def decode_sentence(sentence)
+    decoded_sentence = ''
+
+    sentence.split(/  /).each do |word, i|
+        if i.zero? 
+            decode_sentence += decode_word(word)
+        else
+            decoded_sentence += " #{decode_word(word)}"
+        end
+    end
+    
+    decoded_sentence
+
+ end
+
 puts decode_char("-.")
 puts decode_word("-. .- -- .")
+puts decoded_sentence(".-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...")
