@@ -27,7 +27,7 @@ After you're finished please remove all the comments and instructions!
   <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
   <br/>
 
-  <h3><b>Microverse README Template</b></h3>
+  <h3><b>MORSE CODE DECODER</b></h3>
 
 </div>
 
@@ -57,11 +57,11 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [your_project_name] <a name="about-project"></a>
+# 📖 MORSE-CODE <a name="about-project"></a>
 
 > Describe your project in 1 or 2 sentences.
 
-**[your_project__name]** is a...
+**MORSE CODE** is a simple program that decodes a sentence in morse code. It uses a simple methodology, divide and conquer, by splitting characters into words and words into sentences.
 
 ## 🛠 Built With <a name="built-with"></a>
 
