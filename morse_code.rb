@@ -15,7 +15,7 @@ def decode_word(word)
   translated_word = ''
 
   word.split.each do |char|
-    translated_word += decode_char(char)
+    translated_word + decode_char(char)
   end
 
   translated_word
